@@ -4,278 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="190cb031-9737-4916-b4b1-894873987de7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/VRMMO_Program.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/GUI/button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/GUI/character_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/GUI/chest_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/GUI/fight_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/GUI/inventory_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/GUI/main_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/GUI/shop_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Map/edge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Map/map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Map/mapconstants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Rooms/boss_room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Rooms/chest_room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Rooms/combat_room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Rooms/room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Rooms/shop_room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Rooms/start_room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/game_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/save_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/text_printer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/CharacterGui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Project Report Template  (2) (4).docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Project Report Template  (2).docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Idea Testing/Conlangs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Idea Testing/char_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Idea Testing/ideas_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Attack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Bow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Button_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Chest_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Circlet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Coin2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Combat Boots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Combat Leggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Combat Suit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Crossbow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Gloves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Guantlets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Hazmat Suit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Health.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Helm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Helmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Jeans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Knuckle Dusters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Mace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Medkit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Shirts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Shoes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/ShopFrame.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Thick Pants.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/Work Boots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/defense.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Items/name_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Armory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Barracks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Bridge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Captains Cabin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Cargo Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Elevator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Equipment Storage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Escape Pod.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Main Deck.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Medical Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Power Generator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Restrooms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Shield Generator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Starboard Engineering.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Teleporter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Torpedo Room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThree/Weapon Pod.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Armory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Barracks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Bridge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Captains Cabin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Cargo Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Elevator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Equipment Storage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Escape Pod.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Level_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Main Deck.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Medical Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Original.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Power Generator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Restrooms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Shield Generator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Starboard Engineering.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Teleporter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Torpedo Room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Level3/LevelThreeMap/Weapon Pod.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/BackgroundTwo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Barracks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Bathroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Bridge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Cabin 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Cabin 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Cabin 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Cafeteria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Captains Cabin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Docking Port.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Elevator 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Elevator 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Elevator 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Engine Room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Example1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/GameOver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/GameWon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/HallWay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Hangar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Inventory2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Kitchen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Life Pod 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Life Pod 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Life Pod 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Main Cabin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/MainGameScreen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Pod Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/ShopStore.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/ShopStore2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Showers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Spaceship.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Stats.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Storage Area.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/Weapons Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/bg2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/info_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/inventory.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOne/mainGameBG.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Barracks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Bridge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Cabin 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Cabin 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Cabin 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Cafeteria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Captains Cabin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Docking Port.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Elevator 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Elevator 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Elevator 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Engine Room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Hangar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Kitchen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Life Pod 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Life Pod 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Main Cabin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Original.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Showers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Storage Area.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelOneMap/Weapons Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/A-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/A-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Access Shaft 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Access Shaft 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Access Shaft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Arms Room.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Bridge 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Bridge 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/C-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/C-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Command Module.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Computer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Freezer.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Infirmary.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Lab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Living Quarters.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Main Airlock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Mess.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Power.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Shuttle Dock 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Shuttle Dock 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Storage 2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Storage 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwo/Storage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/A-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/A-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Access Shaft 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Access Shaft 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Access Shaft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Arms Room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Bridge 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Bridge 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/C-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/C-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Command Module.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Computer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Freezer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Infirmary.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Lab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Level2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Living Quarters.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Main Airlock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Mess.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Power.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Shuttle Dock 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Shuttle Dock 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Storage 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Storage 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/LevelTwoMap/Storage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/download.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/ButtonNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/ChestRoomNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/CombatRoomNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/ShopRoomNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/enemy_txt/monster_names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/items_txt/armoryNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/items_txt/item_attributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/items_txt/item_types" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Names/room_txt/room_names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saves/save.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/boss_room_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/character_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/chest_room_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/combat_room_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/edge_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/item_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/map_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/room_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/shop_room_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/start_room_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diagram_UML.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/character_gui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/chest_gui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/fight_gui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/inventory_gui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/main_gui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/GUI/shop_gui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Map/edge.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Map/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Map/mapconstants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Rooms/boss_room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Rooms/chest_room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Rooms/combat_room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Rooms/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Rooms/room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Rooms/shop_room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/Rooms/start_room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/character.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/game_handler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/save_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Classes/text_printer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/boss_room_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/character_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/chest_room_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/combat_room_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/edge_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/item_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/map_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/room_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/shop_room_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/Tests/start_room_tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/rpg/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="190cb031-9737-4916-b4b1-894873987de7" name="Changes" comment="Basic Idea Testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Idea Testing/Conlangs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Idea Testing/Conlangs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,9 +65,20 @@
       <option name="presentableId" value="Default" />
       <updated>1735429844579</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic Idea Testing">
+      <option name="closed" value="true" />
+      <created>1753995017761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753995017761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Basic Idea Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Idea Testing" />
   </component>
 </project>
