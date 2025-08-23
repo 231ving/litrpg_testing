@@ -5,7 +5,7 @@ Character Stat Testing
 
 class Character:
     def __init__(self, name: str, strength: int, strength_percent: float):
-        self.base_stats = {"name": "No Name", "strength": 10, "strength_percent": 100}
+        self.base_stats = {"name": "No Name", "level": 1, "strength": 10, "strength_percent": 100}
         self.modifiers = [{"stat": "strength", "value": 10, "source": "CharPerk"},
                           {"stat": "strength", "value": 10, "source": "CharPerk"},
                           {"stat": "strength_percent", "value": 10, "source": "ItemPerk"}]
@@ -17,7 +17,7 @@ class Character:
             self.base_stats["strength_percent"] = strength_percent
         self.modified_stats = self.base_stats.copy()
 
-    def upgrade_base_stat(self, stat: str, amount_change: int):
+    def upgrade_base_stat(self, stat: str, amount_change: float):
         if stat in self.base_stats:
             prev_stat = self.base_stats[stat]
             self.base_stats[stat] = self.base_stats[stat] + amount_change
@@ -67,16 +67,19 @@ class Character:
     def eff_mod_stat(self, stat: str):
         eff_stat = self.calc_mod_stat(stat)
         print(f'Effective {stat.capitalize()}: {eff_stat:.2f}'
-              f'\tModified {stat.capitalize()}: {self.modified_stats[stat]}'
-              f'\tModified {stat.capitalize()} Percentage: {self.modified_stats[f"{stat}_percent"]}%')
+              f'\t\tModified {stat.capitalize()}: {self.modified_stats[stat]}'
+              f'\t\tModified {stat.capitalize()} Percentage: {self.modified_stats[f"{stat}_percent"]}%')
 
-    def stat_growth_preview(self, iterations: int, stat: str, base_growth: int, percent_growth: int):
+    def stat_growth_preview(self, level_gain: int, stat: str, base_growth: float, percent_growth: float, interval: int = 1):
+        print(f'Level: {self.modified_stats["level"]}', end='\t\t')
         #self.eff_base_stat(stat)
         self.eff_mod_stat(stat)
-        for i in range(0, iterations):
-            self.upgrade_base_stat(stat, base_growth)
-            self.upgrade_base_stat(f'{stat}_percent', percent_growth)
+        for i in range(0, level_gain, interval):
+            self.upgrade_base_stat('level', interval)
+            self.upgrade_base_stat(stat, base_growth * interval)
+            self.upgrade_base_stat(f'{stat}_percent', percent_growth * interval)
             self.reset_mod_stats()
+            print(f'Level: {self.modified_stats["level"]}', end='\t\t')
             #self.eff_base_stat(stat)
             self.eff_mod_stat(stat)
 
@@ -89,4 +92,4 @@ char2 = Character("Char2", 10, 100)
 # char.compare_base_stat("strength", char2)
 # char.upgrade_base_stat("strength", 10)
 
-char.stat_growth_preview(10, 'strength', 10, 2)
+char.stat_growth_preview(1000, 'strength', 2, 0.2, 10)
